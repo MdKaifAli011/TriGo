@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Tours from "./pages/Tours";
-import Booking from "./pages/Booking";
+import Booking from "./components/Booking";
 import Login from "./pages/Login";
 import SuccessPage from "./pages/SuccessPage"; // if you created one
 import NotFound from "./pages/NotFound"; // optional
