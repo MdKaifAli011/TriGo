@@ -16,6 +16,7 @@ const Home = () => {
       <FeaturedTours />
       <ExperienceSection />
       <SubscribeSection />
+     
     </div>
   );
 };
