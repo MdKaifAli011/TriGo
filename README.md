@@ -6,13 +6,16 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live app](https://your-live-site-link.com)
+👉 [Click here to view the live app](https://tri-go.vercel.app/)
 
 ---
 
 ## 📸 Screenshots
 
 Coming soon...
+![image](https://github.com/user-attachments/assets/e93666b1-2c5a-476e-9dcc-689b072d057c)
+![image](https://github.com/user-attachments/assets/bb6654af-84fa-4101-8d1c-448929485d73)
+
 
 ---
 
@@ -36,4 +39,33 @@ Coming soon...
 ---
 
 ## 📁 Folder Structure
+TriGo/
+│
+├── public/
+│   └── index.html               # Main HTML template
+│
+├── src/
+│   ├── assets/                  # Images, icons, and static assets
+│   ├── components/              # Reusable UI components (Navbar, Footer, TourCard, etc.)
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── TourCard.jsx
+│   │
+│   ├── pages/                   # Page-level components
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Tours.jsx
+│   │   ├── Login.jsx
+│   │   ├── Booking.jsx          # If not here, move it from components/
+│   │   ├── SuccessPage.jsx      # Optional - after booking success
+│   │   └── NotFound.jsx         # Optional - for undefined routes
+│   │
+│   ├── App.jsx                  # Main component with routing
+│   └── main.jsx                 # Entry point for React
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 
