@@ -10,8 +10,8 @@ import About from "./pages/About";
 import Tours from "./pages/Tours";
 import Booking from "./components/Booking";
 import Login from "./pages/Login";
-import SuccessPage from "./pages/SuccessPage"; // if you created one
-import NotFound from "./pages/NotFound"; // optional
+import SuccessPage from "./components/Success"; // if you created one
+
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
             <Route path="/tours" element={<Tours />} />
             <Route path="/booking/:tourId" element={<Booking />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/success" element={<SuccessPage />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/success" element={<Success />} />
+           {/*  <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </main>
         <Footer />
