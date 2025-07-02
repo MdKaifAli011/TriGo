@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import About from "./pages/About";         // ✅ Make sure this is here
+import About from "./pages/About";        
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
